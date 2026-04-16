@@ -24,5 +24,9 @@ $discs[] = [
 $string_discs = json_encode($discs);
 file_put_contents('./discs.json', $string_discs);
 
-//header('Location: ./index.php');
+header('Location: ./index.php');
+//aggiunti comandi per permettere di cambiare file json
+// cd /Applications/XAMPP/xamppfiles/htdocs/php_boolean/dischi-json
+// chmod 777 discs.json
+// chmod 777 .
 ?>
